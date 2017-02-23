@@ -1,0 +1,44 @@
+
+1. Describe the characteristics of Big data in detail.
+
+*Volume - The quantity of data generated is important. The size of the data is determined to consider whether it is the big data or not.
+The term Big data itself consists of the word big thus its the characterictics.
+
+*Variety - It is the next aspect which determines the category of the data. Determining the category of data helps in deep data analysis easily and effectively.
+
+*Velocity - It determines how fast the data is generated and processed.
+
+*Variability - This characteristics shows the inconsistency of data occuring at times.
+
+*Complexity - Managining large amount of data coming from different source may become a complex task. So all these data must be linked to ensure that data are handled correctly.
+
+
+2. Explain the possible solutions to handle Big data.
+
+1.Scale up
+
+* Increasing the configuration of the single system.
+*Time consuming process as well as complex and costly.
+*For example, increasing the disk memory or increasing the RAM.
+
+Scale out
+
+*Instead of increasing the configuration of single system, using multiple commodity machines.
+*Economical and faster to implement as it aims at distribution of load.
+*For example, using 40 machines with 256GB storage and 2GB RAM instead of using single system of 10TB storage and 80GB RAM. 
+
+3. Explain the differences between scaling up and scaling out.
+
+Scale up:
+*
+*Also known as concurrent programming.
+*Most common method for utilizing multi-core in single application.
+*Often done through multi-threading and in-process message passing known as actor model.
+
+Scale out:
+
+*Also known as distributed programming.
+*Distributed jobs across machines over the network.
+*Different patterns associated with this model such as master/slave, tuple spaces, blackboard and map/reduce.
+
+                                         
